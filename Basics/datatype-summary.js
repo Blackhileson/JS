@@ -42,3 +42,27 @@ console.log(typeof heross);
 console.log(typeof myFunction);
 
 
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+// Stack(Primitive) , Heap(Non-Primitive)
+
+let dec1 = "savan"
+
+let dec2 = dec1
+dec2 = "savanpatel"
+
+console.log(dec1);
+console.log(dec2);
+
+let user = {
+    name:"savanpatel",
+    age:23
+}
+
+let user1 = user
+
+user1.name = "anothersavan"
+
+console.log(user.name);
+console.log(user1.name);
